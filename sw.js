@@ -1,5 +1,5 @@
 // Cache cangkang aplikasi saja; data Firebase selalu langsung dari jaringan.
-const CACHE = "rpm-v4";
+const CACHE = "rpm-v5";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./logo.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener("activate", e => e.waitUntil(
