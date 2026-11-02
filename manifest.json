@@ -1,6 +1,6 @@
 {
   "name": "RPM Monitor",
-  "short_name": "RPM",
+  "short_name": "RPM Monitor",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
